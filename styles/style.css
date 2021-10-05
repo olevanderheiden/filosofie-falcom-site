@@ -62,10 +62,16 @@ main{
     border-right: solid rgb(255, 242, 64);
 }
 
-h1, h2, h3 {
+h1, h2{
     text-align: center;
     color: rgb(83, 194, 240);
     background: rgb(217, 209, 194);
+}
+
+h3
+{
+    text-align: center;
+    color: rgb(83, 194, 240);
 }
 
 nav{
