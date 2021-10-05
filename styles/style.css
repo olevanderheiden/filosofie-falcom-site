@@ -1,0 +1,131 @@
+
+@font-face {
+    font-family: 'Sawarabi Mincho';
+    src: url('/fonts/SawarabiMincho-Regular.eot');
+    src: url('/fonts/SawarabiMincho-Regular.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/SawarabiMincho-Regular.woff2') format('woff2'),
+    url('/fonts/SawarabiMincho-Regular.woff') format('woff'),
+    url('/fonts/SawarabiMincho-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.alinea{
+    margin-top: 1vw;
+    word-wrap: break-word;
+}
+
+h1,h2,h3,h4,h5,h6,p,a
+{
+    font-family: 'Sawarabi Mincho',sans-serif;
+    font-weight:normal;
+    font-style:normal;
+}
+
+.warning{
+    text-align: center;
+    color: rgb(241, 157, 193);
+}
+.videoList{
+    display: flex; justify-content: center;
+}
+.video{
+    margin: 3%;
+}
+
+.trailer{
+    margin: 3%;
+}
+iframe .trailer{
+    width: 50vw;
+    height: 50vw;
+}
+
+iframe{
+    width: 10vw;
+    height: 10vw;
+}
+
+body {
+    background: rgb(217, 209, 194);
+    padding: 1%;
+    width: 88vw;
+    height: 90vw;
+}
+
+main{
+    padding: 1vw;
+    border-top: solid rgb(140, 195, 87);
+    border-bottom: solid rgb(140, 195, 87);
+    border-left: solid rgb(255, 242, 64);
+    border-right: solid rgb(255, 242, 64);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(83, 194, 240);
+    background: rgb(217, 209, 194);
+}
+
+nav{
+    align-content: center;
+    width: 88vw;
+    background: rgb(84,84,84);
+    display: flex; justify-content: center;
+}
+
+
+nav ul
+ {
+     display: inline-flex;
+ }
+
+.bronnen{
+
+    display: inline-block;
+    margin: 2vw;
+}
+
+.center{
+    text-align: center;
+}
+
+.mening{
+    color: rgb(255, 242, 65);
+}
+ .section{
+
+     width: 70vw;
+     border: rgb(17,17,17);
+     border-width: thick;
+     background:rgb(84,84,84);
+     color: rgb(245,245,245);
+     margin: 1vw;
+ }
+
+
+
+a,li {
+    margin: 1vw;
+    color: rgb(245,245,245);
+    list-style-type: none;
+    text-decoration: none;
+}
+a:hover{
+    background: rgb(172, 210, 138);
+}
+
+header {
+    display: flex;
+}
+
+header.header {
+    display: inline-block;
+    
+}
+
+#logo {
+    width: 15%;
+    height: 10%;
+}
