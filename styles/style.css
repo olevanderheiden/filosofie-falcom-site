@@ -23,6 +23,10 @@ h1,h2,h3,h4,h5,h6,p,a
     font-style:normal;
 }
 
+.caracters{
+    margin: 10px;
+}
+
 .warning{
     text-align: center;
     color: rgb(241, 157, 193);
@@ -91,6 +95,7 @@ nav ul
 
     display: inline-block;
     margin: 2vw;
+    color: rgb(83, 194, 240);
 }
 
 .center{
@@ -114,7 +119,7 @@ nav ul
 
 a,li {
     margin: 1vw;
-    color: rgb(245,245,245);
+    color: rgb(17,17,17);
     list-style-type: none;
     text-decoration: none;
 }
